@@ -38,3 +38,23 @@ The system preprocesses facial images, applies **data augmentation**, and trains
    git clone https://github.com/samrarehman005-ai/Face-Emotion-Recognition-
    cd FER
 
+## 📊 Dataset
+
+The dataset used in this project is **larger than GitHub’s file size limit (25 MB)**, so it is **not included in this repository**.
+
+### How to Get the Dataset
+Download the dataset from one of the following sources:
+- FER2013
+- CK+
+- JAFFE
+
+After downloading, extract the dataset and place it in the following folder:
+dataset/
+├── train/
+│ ├── angry/
+│ ├── happy/
+│ ├── neutral/
+│ └── ...
+├── validation/
+└── test/
+
